@@ -1,2 +1,2 @@
 # calculator
-Calculator Using Frontend Web development 
+Calculator Using HTML CSS JS
