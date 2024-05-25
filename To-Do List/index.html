@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="nav">
+        <h1>To-Do List</h1>
+    <div class="calendar">
+       <div class="dateDiv">
+        <i class="fa-regular fa-calendar"></p></i>
+        <p class="date"></p>
+       </div>
+       <div class="timeDiv">
+        <i class="fa-regular fa-clock"></i>
+        <p class="time"></p>
+       </div>
+    </div>
+    </div>
+    <div class="list">
+        <div class="addNew">
+            <p>Add A New To-Do Task</p>
+            <div class="contentadd">
+                <input type="text" name="newTask" id="newTask" placeholder="Add Your Task">
+            <button type="button" class="Addbtn">Add</button>
+            </div>
+        </div>
+        <div class="commonActivities">
+            <h2>Activities</h2>
+            <div class="activity1 checks">
+                <input type="checkbox" name="act1" id="act1" class="checkboxes">
+                <label for="act1">Morning Exercises</label>
+            </div>
+            <div class="activity2 checks">
+                <input type="checkbox" name="act2" id="act2"  class="checkboxes">
+                <label for="act2">Complete HomeWork</label>
+            </div>
+            <div class="activity3 checks">
+                <input type="checkbox" name="act3" id="act3"  class="checkboxes">
+                <label for="act3">Buy 1/2 kg Potatoes</label>
+            </div>
+            <div class="activity4 checks">
+                <input type="checkbox" name="act4" id="act4"  class="checkboxes">
+                <label for="act4">Clean Home</label>
+            </div>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
