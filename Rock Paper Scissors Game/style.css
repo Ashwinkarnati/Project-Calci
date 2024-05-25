@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    background-color: chocolate;
+    color: gold;
+    height: 4rem;
+    line-height: 4rem;
+}
+img:hover{
+    opacity: 0.1;
+    cursor: pointer;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-top: 1.5vh;
+}
+img{
+    object-fit: cover;
+    border-radius: 40%;
+}
+.scores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    gap: 3vw;
+    margin-top: 1.5vh;
+}
+#playerscore,#compscore{
+    font-size: 2.2em;
+}
+.message-box{
+    margin-top: 3vh;
+}
+#msg{
+    background-color: black;
+    color: white;
+    height: 8vh;
+    line-height: 8vh;
+    font-size:25px;
+    display: inline;
+    padding: 1rem;
+    border-radius: 2rem;
+}
