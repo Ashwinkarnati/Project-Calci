@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="regStyl.css">
+</head>
+<body>
+    <header>
+        <h2>Enter Your Details</h2>
+    </header>
+    <main>
+        <form>
+       <div>
+        <label for="Name" class="dec">Enter Your Name: </label>
+        <input type="text" id="name" placeholder="Enter Your Name" class="name" required>
+       </div>
+       <br>
+       <div>
+        <label for="email"  class="dec">Email: </label>
+        <input type="email" id="email" pattern=".+@gmail.com" size="30" required id="email" placeholder="eg:abc@gmail.com">
+       </div>
+       <br>
+       <div>
+        <label for="pnumber" class="dec">Phone Number: </label>
+        <input type="tel" id="pnumber"  required>
+       </div>
+       <br>
+    <div>
+        <label for="Gender" class="dec">Gender: </label>
+        <input type="radio" name="Gender" id="male" value="Male">
+        <label for="male" >Male</label>
+        <input type="radio" name="Gender" id="female" value="Female">
+        <label for="female" >Female</label>
+    </div>
+    <br>
+    <div>
+        <label for="dob" class="dec">Date of Birth: </label>
+        <input type="date" id="dob" required>
+    </div> 
+    <br>
+    <div>
+        <label for="Degree" class="dec">Degree: </label>
+        <input type="radio" name="Degree" id="UG" value="UG">
+        <label for="UG" >UG</label>
+        <input type="radio" name="Degree" id="PG" value="PG">
+        <label for="PG" >PG</label>
+    </div>
+    <br>
+    <div>
+        <label for="year" class="dec">Year: </label>
+        <select name="year" id="year" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        
+    </div>
+    <div class="content">
+        <button type="button"  class="dec">Register</button>
+    </div>
+    </form>
+    </main>
+    
+    
+    <p id="confirm"></p>
+    <script src="regVal.js">
+        
+    </script>
+</body>
+</html>

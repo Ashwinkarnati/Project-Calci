@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Courgette&display=swap');
+BODY{
+    background-color: #B4F8C8;
+}
+header{
+    text-align: center;
+    font-family: "Courgette Static";
+    color: REd !important;
+    font-size: xx-large;
+    margin-bottom: 4rem;
+}
+.dec{
+    font-size: large;
+    font-weight: 550;
+}
+.content{
+    text-align: center;
+}
+p{
+    color: red;
+    font-style: italic;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+}
+form{
+    background-color: #FBE7C6;
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px ;
+    font-family: "Caveat";
+    font-size: 20px;
+}
+
+button{
+    background-color: aqua;
+    font-family: cursive;
+    padding: 5px;
+    border-radius: 5px;
+}
+#confirm{
+    margin-top: 5rem;
+    color: red;
+    display: block;
+    text-align: center;
+}
